@@ -7,7 +7,7 @@ ul {
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 li {
@@ -17,7 +17,7 @@ link {
   text-align: right;
 }
 a {
-  color: #07391E;
+  color: #07391e;
   text-decoration: none;
 }
 
