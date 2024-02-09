@@ -10,12 +10,16 @@ ul {
   justify-content: flex-end;
 }
 
+.logo {
+    margin-right: auto;
+    max-width: 30px;
+}
+
+
 li {
   margin-left: 20px;
 }
-link {
-  text-align: right;
-}
+
 a {
   color: #07391e;
   text-decoration: none;

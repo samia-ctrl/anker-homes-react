@@ -11,14 +11,17 @@ import { Link } from "react-router-dom";
 
 import "./Pages.css";
 
-
 export default function Home() {
   return (
     <div className="Home body">
-      <NavBar />
-      <img src={logo} alt="logo" className="img-fluid homepage-logo" />
-      <h2 className="heading">
-        Redefining <em>Property Management</em> with purpose{" "}
+      <NavBar showLogo={false} />
+      <img src={logo} alt="logo" className="img-fluid homepage-logo mt-4" />
+      <h2 className="heading mt-3">
+        Redefining{" "}
+        <strong>
+          <em>Property Management</em>{" "}
+        </strong>
+        with purpose{" "}
       </h2>
       <div>
         <img src={intro} alt="intro" className="img-fluid homepage-intro" />
@@ -31,7 +34,7 @@ export default function Home() {
         unique partnership for landlords with HMO licenses.
       </p>
       <Link to="/about">
-        <button>More info</button>
+        <button className="btn">More info</button>
       </Link>
       <br />
       <hr className="line-break" />
@@ -53,6 +56,9 @@ export default function Home() {
                 offer a unique partnership for landlords with HMO licenses.
               </p>
             </div>
+            <Link to="/services">
+              <button className="btn">More info</button>
+            </Link>
           </div>
           <div className="col-md-4">
             <img
@@ -67,6 +73,9 @@ export default function Home() {
                 offer a unique partnership for landlords with HMO licenses.
               </p>
             </div>
+            <Link to="/services">
+              <button className="btn">More info</button>
+            </Link>
           </div>
           <div className="col-md-4">
             <img src={cleaning} alt="cleaning" className="img-fluid services" />
@@ -77,6 +86,9 @@ export default function Home() {
                 offer a unique partnership for landlords with HMO licenses.
               </p>
             </div>
+            <Link to="/services">
+              <button className="btn">More info</button>
+            </Link>
           </div>
         </div>
       </div>

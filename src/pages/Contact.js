@@ -5,8 +5,8 @@ import "./Pages.css";
 export default function Contact() {
   return (
     <>
-      <NavBar />
-      <h2>Contact</h2>
+      <NavBar showLogo={true} />
+      <h2 className="heading">Contact</h2>
     </>
   );
 }

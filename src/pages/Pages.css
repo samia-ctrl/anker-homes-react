@@ -1,17 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap");
+
 .homepage-logo {
-  max-width: 500px;
+  max-width: 600px;
 }
 
 .homepage-intro {
   max-width: 600px;
+  margin: 20px;
 }
 
 .heading {
   font-size: 40px;
+  font-family: "DM Serif Display", serif;
+  font-weight: 300;
 }
 
 .body {
   font-size: 18px;
+  font-family: "Montserrat", sans-serif;
 }
 .line-break {
   width: 75%;
@@ -20,4 +27,14 @@
 
 .services {
   max-width: 300px;
+}
+
+.btn {
+  border: 2px solid;
+  border-radius: 20px;
+}
+
+.btn:hover {
+  background: #07391e;
+  color: #FFFCEB;
 }
