@@ -1,13 +1,86 @@
 import React from "react";
 import NavBar from "../components/NavBar";
-import logo from "./images/Homepage-logo.png"
-import "./Pages.css"
+import Footer from "../components/Footer";
+import logo from "./images/Homepage-logo.png";
+import intro from "./images/Homepage-intro.png";
+import placement from "./images/tenant-placement.png";
+import maintenance from "./images/maintenance.png";
+import cleaning from "./images/cleaning.png";
+
+import { Link } from "react-router-dom";
+
+import "./Pages.css";
+
 
 export default function Home() {
   return (
-  <div className="Home body">
+    <div className="Home body">
       <NavBar />
-        <img src={logo} className="img-fluid homepage-logo"/>
+      <img src={logo} alt="logo" className="img-fluid homepage-logo" />
+      <h2 className="heading">
+        Redefining <em>Property Management</em> with purpose{" "}
+      </h2>
+      <div>
+        <img src={intro} alt="intro" className="img-fluid homepage-intro" />
+      </div>
+      <h2 className="heading">
+        Welcome to <em>Anker Homes</em>
+      </h2>
+      <p className="body">
+        Specialising in tenant placement and property maintenance, we offer a
+        unique partnership for landlords with HMO licenses.
+      </p>
+      <Link to="/about">
+        <button>More info</button>
+      </Link>
+      <br />
+      <hr className="line-break" />
+      <h2 className="heading">
+        <strong>Services</strong>
+      </h2>
+      <div className="container">
+        <div className="row">
+          <div className="col-md-4">
+            <img
+              src={placement}
+              alt="placement"
+              className="img-fluid services"
+            />
+            <div>
+              <strong>Tenant Placement</strong>
+              <p className="services-description">
+                Specialising in tenant placement and property maintenance, we
+                offer a unique partnership for landlords with HMO licenses.
+              </p>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <img
+              src={maintenance}
+              alt="maintenance"
+              className="img-fluid services"
+            />
+            <div>
+              <strong>Property Maintenance</strong>
+              <p className="services-description">
+                Specialising in tenant placement and property maintenance, we
+                offer a unique partnership for landlords with HMO licenses.
+              </p>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <img src={cleaning} alt="cleaning" className="img-fluid services" />
+            <div>
+              <strong>Professional Cleaning</strong>
+              <p className="services-description">
+                Specialising in tenant placement and property maintenance, we
+                offer a unique partnership for landlords with HMO licenses.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <Footer />
     </div>
   );
 }

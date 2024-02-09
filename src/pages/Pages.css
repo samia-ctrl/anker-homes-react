@@ -1,4 +1,23 @@
 .homepage-logo {
-max-width: 500px;
+  max-width: 500px;
 }
 
+.homepage-intro {
+  max-width: 600px;
+}
+
+.heading {
+  font-size: 40px;
+}
+
+.body {
+  font-size: 18px;
+}
+.line-break {
+  width: 75%;
+  margin: 20px auto;
+}
+
+.services {
+  max-width: 300px;
+}
