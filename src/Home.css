@@ -10,31 +10,7 @@
   margin: 20px;
 }
 
-.heading {
-  font-size: 40px;
-  font-family: "DM Serif Display", serif;
-  font-weight: 300;
-}
-
-.body {
-  font-size: 18px;
-  font-family: "Montserrat", sans-serif;
-}
-.line-break {
-  width: 75%;
-  margin: 20px auto;
-}
-
 .services {
   max-width: 300px;
 }
 
-.btn {
-  border: 2px solid;
-  border-radius: 20px;
-}
-
-.btn:hover {
-  background: #07391e;
-  color: #FFFCEB;
-}

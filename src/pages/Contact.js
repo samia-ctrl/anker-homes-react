@@ -1,6 +1,6 @@
 import React from "react";
 import NavBar from "../components/NavBar";
-import "./Pages.css";
+import "../Pages.css";
 
 export default function Contact() {
   return (

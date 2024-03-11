@@ -9,7 +9,8 @@ import cleaning from "./images/cleaning.png";
 
 import { Link } from "react-router-dom";
 
-import "./Pages.css";
+import "../Home.css";
+import "../Pages.css";
 
 export default function Home() {
   return (
@@ -18,9 +19,7 @@ export default function Home() {
       <img src={logo} alt="logo" className="img-fluid homepage-logo mt-4" />
       <h2 className="heading mt-3">
         Redefining{" "}
-        <strong>
           <em>Property Management</em>{" "}
-        </strong>
         with purpose{" "}
       </h2>
       <div>
