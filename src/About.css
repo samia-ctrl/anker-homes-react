@@ -12,3 +12,15 @@
 p {
   font-family: "Montserrat", sans-serif;
 }
+.our-heading {
+  font-size: 48px;
+}
+
+.supported-heading {
+    font-size:36px;
+
+}
+
+.our-para {
+  margin: 0px 50px;
+}
