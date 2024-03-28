@@ -1,7 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap");
 
-.service-heading {
-  font-size: 20px;
+.col-md-4 .service-heading {
+  font-size: 24px;
   font-family: "DM Serif Display", serif;
+  border: 2px solid #07391e;
+  border-radius: 62px;
+  padding: 40px;
+  margin: 10px;
+}
+
+.services-para {
+  font-size: 16px;
+  margin-top: 10px;
 }
