@@ -17,15 +17,13 @@ export default function Home() {
     <div className="Home body">
       <NavBar showLogo={false} />
       <img src={logo} alt="logo" className="img-fluid homepage-logo mt-4" />
-      <h2 className="heading mt-3">
-        Redefining{" "}
-          <em>Property Management</em>{" "}
-        with purpose{" "}
+      <h2 className="tag-line mt-3">
+        Redefining <em>Property Management</em> with purpose{" "}
       </h2>
       <div>
         <img src={intro} alt="intro" className="img-fluid homepage-intro" />
       </div>
-      <h2 className="heading">
+      <h2 className="tag-line">
         Welcome to <em>Anker Homes</em>
       </h2>
       <p className="body">
@@ -37,7 +35,7 @@ export default function Home() {
       </Link>
       <br />
       <hr className="line-break" />
-      <h2 className="heading">
+      <h2 className="tag-line">
         <strong>Services</strong>
       </h2>
       <div className="container">

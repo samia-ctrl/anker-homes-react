@@ -5,6 +5,13 @@
   max-width: 600px;
 }
 
+.tag-line {
+  font-size: 64px;
+  font-family: "DM Serif Display", serif;
+  font-weight: 300;
+  text-align: center;
+}
+
 .homepage-intro {
   max-width: 600px;
   margin: 20px;

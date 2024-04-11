@@ -2,17 +2,19 @@ import NavBar from "../components/NavBar";
 import "../About.css";
 import "../Pages.css";
 import Footer from "../components/Footer";
+import about from "./images/abouts-page.png";
+
 
 export default function About() {
   return (
     <div className="About-body">
       <NavBar showLogo={true} />
-      <h2 className="heading about-heading">
+      <h2 className="heading about-heading mt-3">
         About <em>us</em>
       </h2>
       <div className="container">
         <div className="row">
-          <div className="col-6">
+          <div className="col-md-6 mt-4">
             <p className="about-paragraph">
               At Anker Homes, we blend property management with compassion.
               Specialising in tenant placement and property maintenance, we
@@ -34,7 +36,9 @@ export default function About() {
               change.
             </p>
           </div>
-          <div className="col-6">{/* img will go here */}</div>
+          <div className="col-md-6">
+            <img src={about} alt="about" className="img-fluid abouts-page"/>
+          </div>
         </div>
         <div className="row">
           <div className="col">
