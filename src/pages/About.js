@@ -3,6 +3,7 @@ import "../About.css";
 import "../Pages.css";
 import Footer from "../components/Footer";
 import about from "./images/abouts-page.png";
+import aboutBreak from "./images/about-break.png";
 
 export default function About() {
   return (
@@ -15,16 +16,20 @@ export default function About() {
         <div className="row">
           <div className="col-md-6 mt-4">
             <p className="about-paragraph">
-              At Anker Solutions, we blend property management with compassion.
-              Specialising in tenant placement and property maintenance, we
-              provide a unique service for landlords with HMO licences and a
-              secure solution for individuals in need of supported
-              accommodation. By collaborating with local authorities, we help
-              vulnerable individuals transition smoothly to independent living.
-              Funded by grants and rental income from the local council, we are
-              committed to making a meaningful impact without compromise.
-              Whether you're a landlord or someone seeking support, we are here
-              to meet your needs with dedication and care.
+              At Anker Solutions, we seamlessly blend property management with
+              compassion. Specialising in tenant placement and property
+              maintenance, we provide a unique service for landlords with HMO
+              licences and a secure solution for individuals in need of{" "}
+              <a className="link-opacity-100-hover" href="#about-sh">
+                {" "}
+                supported accommodation
+              </a>
+              . By collaborating with local authorities, we help vulnerable
+              individuals transition smoothly to independent living. Funded by
+              grants and rental income from the local council, we are committed
+              to making a meaningful impact without compromise. Whether you're a
+              landlord or someone seeking support, we are here to meet your
+              needs with dedication and care.
             </p>
             <br />
             <p className="about-paragraph">
@@ -73,10 +78,17 @@ export default function About() {
             </p>
           </div>
         </div>
-        <div className="heading supported-heading mt-5">
+        <div>
+          <img
+            src={aboutBreak}
+            alt="about"
+            className="img-fluid abouts-page about-break"
+          />
+        </div>
+        <div className="heading supported-heading mt-5" id="about-sh">
           About <em>Supported Housing</em>
         </div>
-        <p>
+        <p className="our-approach">
           Supported housing refers to accommodations tailored to assist
           individuals who require support to live independently. Our services
           cater specifically to landlords with HMO licenses and individuals
@@ -87,23 +99,70 @@ export default function About() {
         <div className=" heading SH-definition">
           <em>Our Approach</em>
         </div>
-        <ul>
-          <li>
-            Tailored Tenant Placement: We carefully match individuals in need
-            with suitable housing options, prioritising their safety and
-            comfort.
-          </li>
-          <li>
-            Proactive Property Maintenance: We uphold properties to high
-            standards, ensuring a safe and pleasant living environment for our
-            tenants.
-          </li>
-          <li>
-            Collaboration for Success: Working closely with local councils, we
-            ensure compliance with regulations and address community housing
-            needs effectively.
-          </li>
-        </ul>
+        <br />
+        <div>
+          <ul className="our-approach">
+            <li>
+              <strong>Tailored Tenant Placement:</strong> We carefully match
+              individuals in need with suitable housing options, prioritising
+              their safety and comfort.
+            </li>
+            <li>
+              <strong>Proactive Property Maintenance:</strong>{" "}
+              <div>
+                We uphold properties to high standards, ensuring a safe and
+                pleasant living environment for our tenants.
+              </div>
+            </li>
+            <li>
+              <strong>Collaboration for Success:</strong> Working closely with
+              local councils, we ensure compliance with regulations and address
+              community housing needs effectively.
+            </li>
+          </ul>
+        </div>
+        <br />
+        <div className=" heading SH-definition">
+          <em>Community Impact</em>{" "}
+        </div>
+        <br />
+        <div className="row">
+          <p className=" col-md-6 about-paragraph">
+            <strong>Reduction in Homelessness:</strong> By providing stable and
+            supported housing, Anker Solutions helps reduce the number of
+            individuals experiencing homelessness in the community.
+          </p>
+          <p className="col-md-6 about-paragraph">
+            <strong>Improved Mental and Physical Health:</strong> Stable housing
+            contributes to improved mental health outcomes and reduces stress
+            associated with homelessness or insecure housing situations. Access
+            to support services also enhances physical well-being.
+          </p>
+          <p className=" col-md-6 about-paragraph">
+            <strong>Enhanced Community Safety:</strong> Stable housing can lead
+            to reduced crime rates in local areas as individuals have secure
+            living arrangements and access to support services that address
+            underlying issues.
+          </p>
+          <p className="col-md-6 about-paragraph">
+            <strong>Integration and Social Inclusion:</strong> Supported housing
+            programs often foster a sense of community among residents and
+            encourage social interaction and integration, reducing isolation and
+            loneliness.
+          </p>
+          <p className="col-md-6 about-paragraph">
+            <strong>Relief on Local Emergency Services:</strong> By providing
+            stable housing and support services, we aim to reduce the strain on
+            local emergency services, including hospitals and law enforcement,
+            associated with homelessness.
+          </p>
+          <p className="col-md-6 about-paragraph">
+            <strong>Employment and Educational Opportunities:</strong> Stable
+            housing provides a foundation for individuals to pursue education
+            and employment opportunities, contributing to economic stability and
+            independence.
+          </p>
+        </div>
       </div>
       <Footer />
     </div>

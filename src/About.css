@@ -28,6 +28,22 @@ p {
   margin: 0px 50px;
 }
 
+.our-approach {
+    font-family: "Montserrat", sans-serif;
+}
+
 .abouts-page {
   max-width: 75%;
+}
+
+.about-break {
+  margin-top: 40px;
+  max-width: 40%;
+}
+
+.as {
+  border: 2px solid #07391e;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
 }
