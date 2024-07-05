@@ -33,7 +33,7 @@ export default function About() {
               landscape of property management by infusing care, kindness, and a
               genuine commitment to making a positive impact. Our commitment
               extends beyond promises; it's about building a supportive
-              community. Discover the Anker Homes difference – where your
+              community. Discover the Anker Solutions difference – where your
               property is more than just a space; it's a place for positive
               change.
             </p>
@@ -62,7 +62,7 @@ export default function About() {
             </div>
 
             <p className="our-para">
-              At Anker Homes, our mission is to bridge the UK's housing gap for
+              At Anker Solutions, our mission is to bridge the UK's housing gap for
               vulnerable individuals and alleviate the nationwide accommodation
               shortage. Through strategic collaboration with landlords, we
               create high-quality short-term housing solutions.
