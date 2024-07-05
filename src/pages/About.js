@@ -16,14 +16,16 @@ export default function About() {
         <div className="row">
           <div className="col-md-6 mt-4">
             <p className="about-paragraph">
-              At Anker Homes, we blend property management with compassion.
+              At Anker Solutions, we blend property management with compassion.
               Specialising in tenant placement and property maintenance, we
-              offer a unique partnership for landlords with HMO licenses. By
-              participating in our supported housing programme with
-              government-backed funding, landlords can collaborate with us in
-              providing essential transitional housing for vulnerable
-              individuals. This partnership not only creates a positive impact
-              but also ensures reliable income for our partners.
+              provide a unique service for landlords with HMO licences and a
+              secure solution for individuals in need of supported
+              accommodation. By collaborating with local authorities, we help
+              vulnerable individuals transition smoothly to independent living.
+              Funded by grants and rental income from the local council, we are
+              committed to making a meaningful impact without compromise.
+              Whether you're a landlord or someone seeking support, we are here
+              to meet your needs with dedication and care.
             </p>
             <br />
             <p className="about-paragraph">
@@ -37,7 +39,7 @@ export default function About() {
             </p>
           </div>
           <div className="col-md-6">
-            <img src={about} alt="about" className="img-fluid abouts-page"/>
+            <img src={about} alt="about" className="img-fluid abouts-page" />
           </div>
         </div>
         <div className="row">
