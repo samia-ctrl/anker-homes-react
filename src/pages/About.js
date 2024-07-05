@@ -4,7 +4,6 @@ import "../Pages.css";
 import Footer from "../components/Footer";
 import about from "./images/abouts-page.png";
 
-
 export default function About() {
   return (
     <div className="About-body">
@@ -62,10 +61,10 @@ export default function About() {
             </div>
 
             <p className="our-para">
-              At Anker Solutions, our mission is to bridge the UK's housing gap for
-              vulnerable individuals and alleviate the nationwide accommodation
-              shortage. Through strategic collaboration with landlords, we
-              create high-quality short-term housing solutions.
+              At Anker Solutions, our mission is to bridge the UK's housing gap
+              for vulnerable individuals and alleviate the nationwide
+              accommodation shortage. Through strategic collaboration with
+              landlords, we create high-quality short-term housing solutions.
             </p>
             <p className="our-para">
               We foster a community where everyone has a place to call their
@@ -78,23 +77,33 @@ export default function About() {
           About <em>Supported Housing</em>
         </div>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          Supported housing refers to accommodations tailored to assist
+          individuals who require support to live independently. Our services
+          cater specifically to landlords with HMO licenses and individuals
+          seeking secure, supported accommodation. Through collaboration with
+          local authorities, we facilitate smooth transitions for vulnerable
+          individuals into independent living.
         </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
-        </p>
+        <div className=" heading SH-definition">
+          <em>Our Approach</em>
+        </div>
+        <ul>
+          <li>
+            Tailored Tenant Placement: We carefully match individuals in need
+            with suitable housing options, prioritising their safety and
+            comfort.
+          </li>
+          <li>
+            Proactive Property Maintenance: We uphold properties to high
+            standards, ensuring a safe and pleasant living environment for our
+            tenants.
+          </li>
+          <li>
+            Collaboration for Success: Working closely with local councils, we
+            ensure compliance with regulations and address community housing
+            needs effectively.
+          </li>
+        </ul>
       </div>
       <Footer />
     </div>

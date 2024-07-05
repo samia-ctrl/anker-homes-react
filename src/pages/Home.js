@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <div className="Home body">
       <NavBar showLogo={false} />
-      <img src={logo} alt="logo" className="img-fluid homepage-logo mt-4" />
+      <img src={logo} alt="logo" className="img-fluid homepage-logo mt-3" />
       <h2 className="tag-line mt-3">
         Redefining <em>Property Management</em> with purpose{" "}
       </h2>
@@ -24,7 +24,7 @@ export default function Home() {
         <img src={intro} alt="intro" className="img-fluid homepage-intro" />
       </div>
       <h2 className="tag-line">
-        Welcome to <em>Anker Homes</em>
+        Welcome to <em>Anker Solutions</em>
       </h2>
       <p className="body">
         Specialising in tenant placement and property maintenance, we offer a

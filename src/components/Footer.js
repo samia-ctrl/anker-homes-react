@@ -8,12 +8,13 @@ export default function Footer() {
       <div className="container">
         <div className="row">
           <div className="col-md-6">
-            Anker Homes LTD
+            Anker Solutions CIC
             <div>
-              Redefining property management with purpose | © 2024 Anker Homes
+              Redefining property management with purpose | © 2024 Anker
+              Solutions
             </div>
             <div>Registered in England and Wales No. 15309380.</div>
-            <div>20 Wenlock Road, London, N1 7</div>
+            <div>20 Wenlock Road, London, N1 7GU</div>
           </div>
 
           <div className="col-md-6">
