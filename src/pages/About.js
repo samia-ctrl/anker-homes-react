@@ -126,42 +126,45 @@ export default function About() {
           <em>Community Impact</em>{" "}
         </div>
         <br />
-        <div className="row">
-          <p className=" col-md-6 about-paragraph">
-            <strong>Reduction in Homelessness:</strong> By providing stable and
-            supported housing, Anker Solutions helps reduce the number of
-            individuals experiencing homelessness in the community.
-          </p>
-          <p className="col-md-6 about-paragraph">
-            <strong>Improved Mental and Physical Health:</strong> Stable housing
-            contributes to improved mental health outcomes and reduces stress
-            associated with homelessness or insecure housing situations. Access
-            to support services also enhances physical well-being.
-          </p>
-          <p className=" col-md-6 about-paragraph">
-            <strong>Enhanced Community Safety:</strong> Stable housing can lead
-            to reduced crime rates in local areas as individuals have secure
-            living arrangements and access to support services that address
-            underlying issues.
-          </p>
-          <p className="col-md-6 about-paragraph">
-            <strong>Integration and Social Inclusion:</strong> Supported housing
-            programs often foster a sense of community among residents and
-            encourage social interaction and integration, reducing isolation and
-            loneliness.
-          </p>
-          <p className="col-md-6 about-paragraph">
-            <strong>Relief on Local Emergency Services:</strong> By providing
-            stable housing and support services, we aim to reduce the strain on
-            local emergency services, including hospitals and law enforcement,
-            associated with homelessness.
-          </p>
-          <p className="col-md-6 about-paragraph">
-            <strong>Employment and Educational Opportunities:</strong> Stable
-            housing provides a foundation for individuals to pursue education
-            and employment opportunities, contributing to economic stability and
-            independence.
-          </p>
+        <div className="container">
+          <div className="row">
+            <p className=" col-md-6 as about-paragraph">
+              <strong>Reduction in Homelessness:</strong> By providing stable
+              and supported housing, Anker Solutions helps reduce the number of
+              individuals experiencing homelessness in the community.
+            </p>
+            <p className="col-md-6 as about-paragraph">
+              <strong>Improved Mental and Physical Health:</strong> Stable
+              housing contributes to improved mental health outcomes and reduces
+              stress associated with homelessness or insecure housing
+              situations. Access to support services also enhances physical
+              well-being.
+            </p>
+            <p className=" col-md-6 as about-paragraph">
+              <strong>Enhanced Community Safety:</strong> Stable housing can
+              lead to reduced crime rates in local areas as individuals have
+              secure living arrangements and access to support services that
+              address underlying issues.
+            </p>
+            <p className="col-md-6 as about-paragraph">
+              <strong>Integration and Social Inclusion:</strong> Supported
+              housing programs often foster a sense of community among residents
+              and encourage social interaction and integration, reducing
+              isolation and loneliness.
+            </p>
+            <p className="col-md-6 as about-paragraph">
+              <strong>Relief on Local Emergency Services:</strong> By providing
+              stable housing and support services, we aim to reduce the strain
+              on local emergency services, including hospitals and law
+              enforcement, associated with homelessness.
+            </p>
+            <p className="col-md-6 as about-paragraph">
+              <strong>Employment and Educational Opportunities:</strong> Stable
+              housing provides a foundation for individuals to pursue education
+              and employment opportunities, contributing to economic stability
+              and independence.
+            </p>
+          </div>
         </div>
       </div>
       <Footer />
